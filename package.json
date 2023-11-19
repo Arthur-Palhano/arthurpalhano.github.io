@@ -1,0 +1,14 @@
+{
+  "name": "paulo-arthur-portfolio",
+  "version": "1.0.0",
+  "description": "criando meu proprio porfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "author": "paulo arthur",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
