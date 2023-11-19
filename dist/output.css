@@ -656,12 +656,20 @@ video {
   background-color: rgb(50 80 250 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/images\/bricks\.webp\'\)\] {
-  background-image: url('../images/bricks.webp');
+.bg-\[url\(\'\.\/images\/bricks\.webp\'\)\] {
+  background-image: url('./images/bricks.webp');
+}
+
+.bg-\[url\(\'\.\/images\/bubbles\.webp\'\)\] {
+  background-image: url('./images/bubbles.webp');
 }
 
 .bg-\[url\(\'\.\.\/images\/bubbles\.webp\'\)\] {
   background-image: url('../images/bubbles.webp');
+}
+
+.bg-\[url\(\'\.\.\/images\/bricks\.webp\'\)\] {
+  background-image: url('../images/bricks.webp');
 }
 
 .bg-cover {
@@ -752,6 +760,14 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .hover\:text-l-lavender:hover {
